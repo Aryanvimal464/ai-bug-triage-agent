@@ -1,0 +1,13 @@
+id,report,expected_severity,pred_severity,expected_module,pred_module,expected_duplicate,pred_duplicate,reasoning
+T1,Valid email aur password dalne ke baad bhi login nahi ho raha invalid credentials aa raha hai,Critical,,Login,,yes,no,
+T2,Item remove karne par cart ka total price same rehta hai,High,,Cart,,yes,no,
+T3,Order history page par 30 din se purane orders show nahi ho rahe,High,,Order Tracking,,no,no,
+T4,Checkout par Pay Now button do baar dabane se do orders ban gaye,Critical,,Checkout,,yes,no,
+T5,Signup form mein 3 character ka password bhi accept ho jata hai,Medium,,Signup,,no,no,
+T6,Android par logout dabane se kuch nahi hota,Medium,,Login,,yes,no,
+T7,Search bar mein laptop type karne par 30 second loading chalti hai aur poori site freeze ho jati hai,High,,Search,,no,no,
+T8,Website footer mein copyright year 2023 dikh raha hai,Low,,General,,no,no,
+T9,Gift card redeem karne par balance negative ho gaya aur payment ho gaya,Critical,,Checkout,,no,no,
+T10,Tracking link click karne par page not found aata hai,High,,Order Tracking,,yes,no,
+T11,Profile mein phone number field mein alphabets type ho jate hain,Low,,Profile,,no,no,
+T12,Forgot password karne par reset mail kabhi nahi aata,High,,Login,,yes,no,

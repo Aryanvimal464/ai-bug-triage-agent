@@ -1,0 +1,4 @@
+ticket_id,created_at,title,severity,priority,module,steps_to_reproduce,expected,actual
+TKT-001,2026-10-02T01:36:56,Infinite loading on search results page when searching for products,High,P1,Search,"1. Navigate to the search bar.
+2. Enter 'iPhone 15' as the search query.
+3. Submit the search.",Search results page should load promptly and display matching products.,Search results page keeps loading indefinitely and no products are displayed.

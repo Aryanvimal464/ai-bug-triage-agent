@@ -1,0 +1,26 @@
+id,title,description,module,severity
+1,Login fails with valid credentials,User enters correct email and password but gets invalid credentials error,Login,Critical
+2,Cart total not updating,Cart total price does not change after removing an item,Cart,High
+3,Search fails for special characters,Searching for shoes & bags shows empty page,Search,Medium
+4,Payment page crashes on Safari,Checkout payment page shows blank screen on Safari browser,Checkout,Critical
+5,Typo on signup button,Button label says Sing Up instead of Sign Up,Signup,Low
+6,Order status stuck on processing,Order tracking page shows processing even after delivery,Order Tracking,High
+7,Price filter shows wrong products,Price range filter shows products outside the selected range,Search,Medium
+8,Password reset email not received,No email arrives after clicking forgot password,Login,High
+9,Cart accepts negative quantity,Cart quantity field allows -1 and reduces total,Cart,Medium
+10,Logout button unresponsive on mobile,Tapping logout does nothing on Android Chrome,Login,Medium
+11,Duplicate order on double click,Double clicking Pay Now creates two orders and charges twice,Checkout,Critical
+12,Coupon code applied twice,Same coupon can be applied multiple times to get extra discount,Checkout,High
+13,Signup allows existing email,Registering with an already used email creates another account,Signup,High
+14,Product images not loading on category page,Category listing shows broken image icons,Search,Medium
+15,Cart items lost after logout,Items added to cart disappear after logging out and in again,Cart,Medium
+16,Confirmation email missing invoice,Order confirmation email arrives without the invoice PDF,Order Tracking,Low
+17,Card number accepts letters,Credit card number field accepts alphabets,Checkout,High
+18,Profile picture upload fails above 2MB,Uploading image larger than 2MB shows generic error,Profile,Low
+19,Session does not expire,User stays logged in forever after inactivity,Login,High
+20,Sort by price wrong order,Sort low to high shows random price order,Search,Medium
+21,Tracking link opens 404,Track order link from email leads to page not found,Order Tracking,High
+22,Address form accepts blank pincode,Checkout proceeds with empty pincode field,Checkout,Medium
+23,App crashes on empty search,Pressing search with empty box crashes the page,Search,High
+24,Wrong tax for international orders,Tax calculated using domestic rate for international addresses,Checkout,Critical
+25,Wishlist button misaligned on small screens,Wishlist heart icon overlaps product title on screens below 360px,Search,Low
